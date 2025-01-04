@@ -364,7 +364,7 @@ strong{
 @media screen and (max-width: 768px) {
     /* Main1 Section */
     .main1 {
-        margin-top: 4rem;
+        margin-top: 1rem;
         flex-direction: column;
         padding: 0 1.5rem;
         gap: 3rem;
