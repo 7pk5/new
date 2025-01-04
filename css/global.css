@@ -364,10 +364,10 @@ strong{
 @media screen and (max-width: 768px) {
     /* Main1 Section */
     .main1 {
-        margin-top: 1rem;
+        margin-top: 2rem;
         flex-direction: column;
         padding: 0 1.5rem;
-        /* gap: 3rem; */
+        gap: 3rem;
     }
 
     .main1-left {
