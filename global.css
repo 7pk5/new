@@ -1,0 +1,190 @@
+/* Large Devices (Tablets & Small Laptops) */
+@media screen and (max-width: 1024px) {
+    .main1 {
+        margin-top: 8rem;
+        padding: 0 2rem;
+    }
+
+    .main1-left {
+        width: 50%;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main1-left h1 {
+        font-size: 2.5em;
+        text-align: start;
+    }
+
+    .main1-left p {
+        text-align: start;
+    }
+
+    .how-it-works-container {
+        gap: 6rem;
+    }
+
+    .image-container {
+        height: 450px;
+    }
+}
+
+/* Medium Devices (Tablets & Mobile) */
+@media screen and (max-width: 768px) {
+    /* Layout & Spacing */
+    .main1, .main2, .main3, .main4 {
+        margin-top: 4rem;
+        padding: 2rem 1.5rem;
+    }
+
+    /* Main1 Section */
+    .main1 {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2rem;
+        padding: 0 8px;
+    }
+
+    .main1-left, .main1-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main1-left {
+        text-align: center;
+    }
+
+    .main1-left h1 {
+        font-size: 3.2em;
+        text-align: center;
+    }
+
+    .main1-left p {
+        text-align: center;
+    }
+
+    /* Main2 Section */
+    .how-it-works-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .steps-container {
+        order: 2;
+        width: 100%;
+    }
+
+    .image-container {
+        order: 1;
+        height: 350px;
+        width: 100%;
+    }
+
+    /* Main3 Section */
+    .main3-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .main3-container {
+        min-width: 100%;
+        padding: 1.5rem;
+    }
+
+    /* Main4 FAQ Section */
+    .question-container {
+        width: 100%;
+    }
+}
+
+/* Small Devices (Mobile) */
+@media screen and (max-width: 480px) {
+    /* Typography */
+    .main1-left h1, .main2 h1, .main3 h1, .main4 h1 {
+        font-size: 1.5em;
+    }
+
+    .main1-left p, .step-description, .head h3, .answer {
+        font-size: 0.9em;
+    }
+
+    .step-title {
+        font-size: 1.2em;
+    }
+
+    .head h1 {
+        font-size: 1.1em;
+    }
+
+    /* Layout & Spacing */
+    .main1 {
+        margin-top: 5rem;
+        padding: 0 1rem;
+        gap: 2rem;
+    }
+
+    .main1-left p {
+        margin: 1rem 0;
+    }
+
+    .main1-left a {
+        font-size: 1.1em;
+        padding: 0.8em 1.5em;
+    }
+
+    .main2 {
+        padding: 1.5rem 1rem;
+    }
+
+    .main2 h1 {
+        margin-bottom: 2rem;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .main3-container {
+        padding: 1.2rem;
+    }
+
+    .question h2 {
+        font-size: 1em;
+        padding: 1rem;
+    }
+
+    .answer {
+        padding: 0 1rem 1rem;
+    }
+}
+
+/* Landscape Mode */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    .main1 {
+        margin-top: 4rem;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .how-it-works-container {
+        flex-direction: row;
+    }
+
+    .steps-container {
+        order: 1;
+    }
+
+    .image-container {
+        order: 2;
+        height: 400px;
+    }
+
+    .main3-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main3-container {
+        min-width: calc(50% - 1rem);
+    }
+} 
